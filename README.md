@@ -71,6 +71,6 @@ At this point our microservice should be running and returning results via HTTP 
 | index.ts                 | Entry point of the microservice.                                                              |
 
 ## Debug in VSCode
-**vscode-launch.json** contains configuration for attaching to the nodemon process in the running docker container in order to debug the service. It is convenient to setup this in order to have "F5" debugging in vscode for all your microservices. With watch scripts and the compose setup (local folders and remote folders in the container are mapped) you can edit your source, build and debug on the fly in the container once you are attached to the nodemon process which really speeds up the dev process and is pretty cool.
-Copy this file to your **.vscode/launch.json** file to start debugging easily.
+**vscode-launch.json** contains configuration for attaching to the nodemon process in the running docker container in order to debug the service. It is convenient to setup this in order to have "F5" debugging in vscode for all your microservices. With watch scripts and the compose setup (local folders and remote folders in the container are mapped) you can edit your source, build and debug on the fly in the container once you are attached to the nodemon process which really speeds up the dev process and is pretty cool.  
+Copy this file to your **.vscode/launch.json** file to start debugging easily.  
 This workflow is not specific to vscode and could be setup easily with other IDEs through which you can attach to nodemon.
