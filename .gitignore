@@ -1,6 +1,6 @@
 node_modules
 npm-debug.log
-.vscode
+.vscode/**
 
 # Ignore built ts files
 dist/**/*
