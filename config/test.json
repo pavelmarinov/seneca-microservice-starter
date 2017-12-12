@@ -1,0 +1,6 @@
+{
+    "API_PORT": "3000",
+    "AMQP_CONSUMER_URI": "amqp://guest:guest@rabbit:5672",
+    "AMQP_PRODUCER_URI": "amqp://guest:guest@rabbit:5672",
+    "NODE_ENV": "dev"
+}

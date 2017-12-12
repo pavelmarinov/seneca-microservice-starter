@@ -1,0 +1,11 @@
+version: '3'
+services:
+  seneca-microservice-starter:
+    build: .
+    command: nodemon -L --inspect=0.0.0.0 --debug=5858 ./dist/index.js  ##use this to debug the service within vscode
+    volumes:
+      - .:/seneca-microservice-starter
+    ports:
+      - "3000:3000"
+      - "5858:5858"
+  
